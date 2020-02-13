@@ -331,18 +331,18 @@ fig.update_layout(title={'text' : 'DE wind forecast',
                 shapes=[
                 go.layout.Shape(
                                 type = 'line',
-                                x0 = '2020-02-10 0:00',
+                                x0 = '2020-02-17 0:00',
                                 y0 = 0,
-                                x1 = '2020-02-10 0:00',
+                                x1 = '2020-02-17 0:00',
                                 #yref  = 'paper',
                                 y1 = 50,
                                 line=dict(color = 'darkgreen', width=2),
                                 ),
                 go.layout.Shape(
                                 type = 'line',
-                                x0 = '2020-02-17 0:00',
+                                x0 = '2020-02-24 0:00',
                                 y0 = 0,
-                                x1 = '2020-02-17 0:00',
+                                x1 = '2020-02-24 0:00',
                                 #yref  = 'paper',
                                 y1 = 50,
                                 line=dict(color = 'darkgreen', width=2),
@@ -358,7 +358,7 @@ import plotly.io as pio
 pio.write_html(fig, file='index.html', auto_open=False)
 
 from git import Repo
-today_date = '6.2.2020'
+today_date = '13.2.2020'
 PATH_OF_GIT_REPO = r'F:\SEAS\WattsightAPI\DE_vyroba\.git'  # make sure .git folder is properly configured
 COMMIT_MESSAGE = f'{today_date} update'
 
