@@ -334,7 +334,7 @@ fig.update_layout(title={'text' : 'DE wind forecast',
                                 y0 = 0,
                                 x1 = '2020-02-24 0:00',
                                 #yref  = 'paper',
-                                y1 = 5,
+                                y1 = 50,
                                 line=dict(color = 'darkgreen', width=2),
                                 ),
                 go.layout.Shape(
@@ -343,7 +343,7 @@ fig.update_layout(title={'text' : 'DE wind forecast',
                                 y0 = 0,
                                 x1 = '2020-03-02 0:00',
                                 #yref  = 'paper',
-                                y1 = 5,
+                                y1 = 50,
                                 line=dict(color = 'darkgreen', width=2),
                                 )]
                 )
